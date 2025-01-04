@@ -1,15 +1,7 @@
 object Main {
-    def convertToTitle(columnNumber: Int): String = {
-        val alphabet = ('A' to 'Z').mkString
-
-        def convertRec(n: Int, result: String): String = {
-            if (n == 0) result
-            else convertRec(
-                (n - 1) / alphabet.length, 
-                s"${alphaBet.charAt((n - 1) % alphabet.length)}$result"
-            )
-        }
-
-        convertRec(columnNumber, "")
-    }
+    def maxProfit(prices: Array[Int]): Int =
+        prices.foldLeft((Int.MaxValue, 0)) {
+            case ((minPrice, maxProfit), price) => 
+                (minPrice min price, maxProfit max (price - minPrice))
+        }._2
 }
