@@ -2,3 +2,4 @@
 
 - [Лучшее время для покупки и продажи акций](./1-buy-and-sell-stock/)
 - [Заголовок столбца на листе Excel](./2-excel-sheet-column-title/)
+- [Треугольник Паскаля](./3-pascal-triangle/)

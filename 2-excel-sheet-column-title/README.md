@@ -15,14 +15,26 @@ AB -> 28
 ...
 ```
 
+<hr />
+
 **Пример 1:**
-<br/> Input: 1
-<br/> Output: «A»
+
+**Input:** 1
+<br/>
+**Output:** «A»
+
+<hr />
 
 **Пример 2:**
-<br/>Input: 28
-<br/>Output: «AB»
+
+**Input:** 28
+<br/>
+**Output:** «AB»
+
+<hr />
 
 **Пример 3:**
-<br/>Input: 701
-<br/>Output: «ZY»
+
+**Input:** 701
+<br/>
+**Output:** «ZY»
